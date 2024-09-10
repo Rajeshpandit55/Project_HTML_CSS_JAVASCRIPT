@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: centre;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  justify-content: space-evenly;
+}
+.container {
+  height: 100%;
+  width: 40%;
+  margin-top: 2rem;
+}
+h1 {
+  font-size: 2.4rem;
+}
+#password-container {
+  height: 50rem;
+  width: 100rem;
+  background-color: #210a0a;
+}
+#Generate {
+  border: black dotted 3px;
+  height: 7rem;
+  width: 30rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  /* padding-left: 7rem; */
+  font-size: 2rem;
+  text-align: left;
+  position: relative;
+  padding-left: 1rem;
+}
+.password-Container {
+  height: 9rem;
+  width: 35rem;
+  /* background-color: aqua; */
+}
+#copy {
+  position: absolute;
+  margin-left: -4.5rem;
+  margin-top: 2.4rem;
+  height: 6rem;
+  width: 4rem;
+  background-color: rgb(190, 185, 185);
+}
+#copied {
+  display: none;
+}
+#password-title {
+  font-size: 2.1rem;
+  margin-left: 10rem;
+  /* background-color: rgb(120, 79, 30); */
+}
+#passLength {
+  height: 2rem;
+  width: 4.3rem;
+  margin-left: 1rem;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#password-length-container {
+  margin-top: 1rem;
+  position: relative;
+  height: 4rem;
+  width: 31rem;
+}
+#slidebar {
+  width: 29.5rem;
+  height: 5rem;
+  margin-left: 3.2rem;
+}
+.allChar {
+  height: 2rem;
+  width: 4rem;
+  margin-left: 2rem;
+  font-size: 5rem;
+}
+.include {
+  font-size: 2rem;
+}
+#strength {
+  position: relative;
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  margin-left: 3rem;
+}
+#progressValue {
+  width: 22.5rem;
+  margin-left: 1.5rem;
+
+  /* position: absolute; */
+}
+#btn {
+  height: 3rem;
+  width: 12rem;
+  margin-left: 11rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+#Reset {
+  height: 3rem;
+  width: 9rem;
+  margin-left: 3.2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+#progessBar,
+#slidebar:hover {
+  transform: scaleX(1);
+  box-shadow: blueviolet;
+}
+
+#progressBar {
+  margin-top: 1.2rem;
+  height: 3rem;
+  width: 40rem;
+
+  /* background-color: aqua; */
+}
+.field {
+  height: 42rem;
+  border: 2px solid black;
+}
+#legend {
+  text-align: center;
+}
+#btn,
+#Reset {
+  /* width: 150px; */
+  font-size: 1.1rem;
+  line-height: 2;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to bottom right, #777, #ddd);
+  box-shadow: 1px 1px 1px black, inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgb(255 255 255 / 50%);
+}
+
+#btn:focus,
+#Reset:hover {
+  background-image: linear-gradient(to bottom right, #888, #eee);
+}
+
+#btn:active {
+  box-shadow: inset 2px 2px 1px black, inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgb(255 255 255 / 50%);
+}
+#Reset:active {
+  box-shadow: inset 2px 2px 1px black, inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgb(255 255 255 / 50%);
+}
+.footer {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin-bottom: -30rem;
+  margin-right: -7rem;
+}
+/* #dil{
+    margin-bottom:-25rem;
+    margin-right:2rem;
+}
+
+#designed {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  
+  margin-right: 25rem;
+  position: relative;
+  width: 1rem;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: 5rem;
+}
+
+#designed::before,
+#designed::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 52px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  background: red;
+}
+
+#designed::before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+#designed::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+} */
